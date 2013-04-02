@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>金子蛙电商平台</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html" charset="UTF-8" http-equiv="Content-Type" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/jinziwa.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 800px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 60px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+    </style>
+  </head>
+  <body>
+  
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">关于</a></li>
+          <li><a href="#">联系</a></li>
+        </ul>
+        <h3 class="muted">金子蛙</h3>
+      </div>
+
+      <hr>
+
+      <div class="jumbotron">
+        <h1>Super awesome marketing speak!</h1>
+        <p class="lead">Jinziwa is the place to discover, collect and buy from a crowd-curated catalog of amazing goods, wonderful places and great stores.</p>
+        <a class="btn btn-large btn-success" href="#">会员登录</a>
+      </div>
+
+      <hr>
+      
+      <div id="pin-container">  
+        <div class="item pin-wrapper"><img src="images/frogs/1.jpg"></div>  
+        <div class="item pin-wrapper"><img src="images/frogs/2.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/3.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/4.jpg"></div>  
+        <div class="item pin-wrapper"><img src="images/frogs/5.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/6.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/7.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/8.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/9.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/10.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/11.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/12.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/13.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/14.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/15.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/16.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/17.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/18.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/19.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/20.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/21.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/22.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/23.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/24.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/25.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/26.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/27.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/28.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/29.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/30.jpg"></div>        
+        <div class="item pin-wrapper"><img src="images/frogs/31.jpg"></div>  
+        <div class="item pin-wrapper"><img src="images/frogs/32.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/33.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/34.jpg"></div>  
+        <div class="item pin-wrapper"><img src="images/frogs/35.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/36.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/37.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/38.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/39.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/40.jpg"></div>
+        <div class="item pin-wrapper"><img src="images/frogs/41.jpg"></div>
+      </div>  
+
+      <hr>
+
+      <div class="footer">
+        <p>&copy; 福州金子蛙文化传播有限公司·旗下电商平台 2013</p>
+      </div>
+
+    </div> <!-- /container -->
+    
+    
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.masonry.min.js"></script>
+    <script>  
+      $(function(){  
+          var $container = $('#pin-container');  
+        
+          $container.imagesLoaded( function(){  
+              $container.masonry({  
+                  itemSelector : '.item',  
+                  isAnimated : true  
+              });  
+          });  
+      });  
+    </script>
+  </body>
+</html>

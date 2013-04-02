@@ -1,0 +1,17 @@
+
+.item {
+	margin: 14px 7px 0 7px;
+}
+
+.pin-wrapper {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+	-moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+	background: #fff;
+	width: 236px;
+}
